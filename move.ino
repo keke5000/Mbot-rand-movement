@@ -14,28 +14,6 @@
 #include <MeMCore.h>
 
 MeDCMotor motor_9(9);
-MeDCMotor motor_10(10);		
-MeUltrasonicSensor ultra(PORT_3);
-MeBuzzer buzzer;
-MeLEDMatrix ledMx;
-
-void buzzerOn()
-{
-  buzzer.tone(500);
-}
-void buzzerOff()
-{
-  buzzer.noTone(); 
-}
-
-
-void ultrasonic()
-{
-  uint8_t d = ultra.distanceCm(70);
-  static long time = millis();
-  randomSeed(analogRead(6));
-  uint8_t randNumber = random(2);
-}
 
 void move(int direction, int speed)
 {
