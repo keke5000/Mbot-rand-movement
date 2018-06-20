@@ -2,6 +2,8 @@
  Tarkoituksena on ollut saada mbot liikkumaan itsenäisesti ja sattumanvaraisesti, väistäen kuitenkin esteen tullessa tielle.
  Väistäminen on toteutettu Ultrasonic-sensorin avulla, mutta toimii vielä välttävästi. Ajon aikana mbot saa liikekäskyn jota se ei lopeta ennen kuin valittu aikamääre umpeutuu. 
 
+		KOMMENTTIRAITAKOKEILU :)
+
  -Keke5000
 */
 
